@@ -1,0 +1,33 @@
+:root {
+
+
+  /* Primary color shades */
+  --md-primary-fg-color: #2D336B;
+  --md-primary-bg-color: #FFF2F2;
+  --md-text-link-color: #7886C7;
+
+  /* Accent color shades */
+  --md-accent-fg-color: #A9B5DF;
+  --md-accent-fg-color--transparent: hsla(189, 100%, 37%, 0.1);
+  --md-accent-bg-color: #FFF2F2;
+}
+
+:root > * {
+
+  /* Code block color shades */
+  --md-code-bg-color: #f2f5fe;
+  --md-code-fg-color: rgb(0, 0, 0);
+  --md-code--color: #f2f5fe;
+
+  /* Footer */
+  --md-footer-bg-color: #7886C7;
+  --md-footer-bg-color--dark: hsla(0, 0%, 0%, 0.32);
+  --md-footer-fg-color: hsla(0, 0%, 100%, 1);
+  --md-footer-fg-color--light: hsla(0, 0%, 100%, 0.7);
+  --md-footer-fg-color--lighter: hsla(0, 0%, 100%, 0.3);
+}
+.md-typeset .admonition,
+.md-typeset details {
+  border-width: 0;
+  border-left-width: 4px;
+}
